@@ -10,7 +10,7 @@
     "name": "Robert Balicki",
     "email": "robert.balicki@gmail.com"
   },
-  "main": "./promise-unwrap.min.js",
+  "main": "./src/gulp-git-show.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/rbalicki2/gulp-git-show.git"
