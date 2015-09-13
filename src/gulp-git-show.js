@@ -35,6 +35,8 @@ function getTransformStream(opts) {
     function gitShow(file, cb) {
       var relativePath = path.relative(opts.relativeTo, file.path);
       exec(getExecString(relativePath), function(err, stdout, stderr) {
+        console.log('file contents', relativePath);
+        console.log(stdout.toString());
         file.contents = Buffer(stdout.toString());
         self.push(file);
         cb();
