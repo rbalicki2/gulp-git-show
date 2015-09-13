@@ -21,8 +21,5 @@
     "url": "https://github.com/rbalicki2/angular-library-boilerplate.git"
   },
   "dependencies": {},
-  "devDependencies": {
-    "angular-mocks": "~1.4.5",
-    "angular": "~1.4.5"
-  }
+  "devDependencies": {}
 }
