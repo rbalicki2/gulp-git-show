@@ -1,15 +1,10 @@
 {
-  "name": "angular-library-boilerplate",
+  "name": "gulp-git-show",
   "version": "0.0.0",
-  "description": "A badass boilerplate for an angular library",
-  "keywords": [
-    "angular",
-    "boilerplate",
-    "library",
-    "gulp"
-  ],
-  "homepage": "https://github.com/rbalicki2/angular-library-boilerplate/",
-  "bugs": "https://github.com/rbalicki2/angular-library-boilerplate/issues",
+  "description": "git show for streams",
+  "keywords": [],
+  "homepage": "https://github.com/rbalicki2/gulp-git-show/",
+  "bugs": "https://github.com/rbalicki2/gulp-git-show/issues",
   "license": "MIT",
   "author": {
     "name": "Robert Balicki",
@@ -18,7 +13,7 @@
   "main": "./promise-unwrap.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rbalicki2/angular-library-boilerplate.git"
+    "url": "https://github.com/rbalicki2/gulp-git-show.git"
   },
   "scripts": {
     "lint": "gulp lint",
